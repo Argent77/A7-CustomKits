@@ -1,0 +1,83 @@
+// Using OEM charset..
+ @1 = ~Schwertmagier Kit~
+ @2 = ~Komponente wird bersprungen. Eine oder mehrere Dateien werden bereits von einem anderen Mod genutzt.~
+ @3 = ~Abgeschw„chte Version~
+ @4 = ~Originale Version~
+
+// Using ANSI charset...
+@101 = ~Schwertmagier~
+@102 = ~Schwertmagier~
+
+@103 = ~SCHWERTMAGIER: Nicht alle Kämpfer vertrauen allein ihren Waffenkünsten. Einige trainieren auch ihren Verstand, um sich im Kampf z.B. mit Geisterwaffen oder Kopien von sich selbst zu behaupten. Diese Fähigkeiten machen sie zu ernstzunehmenden Gegnern in allen Situationen.
+
+VORTEILE:
+-  Erhält alle 3 Stufen - beginnend bei Stufe 3 - die Fähigkeit, eine geisterhafte Waffe zu erschaffen, die drei Phasen anhält. Während der Zauber aktiv ist, kann zwischen dem 'Geisterdolch' (Stichwaffe), dem 'Geisterstreitkolben' (Wuchtwaffe), der 'Geisteraxt' (Klingenwaffe) oder seiner physischen Waffe frei gewählt werden.
+-  Wenn der Schwertmagier aufsteigt, wird auch seine Waffe mächtiger:
+Stufe 3-5: 1W8+1, +1 ETW0, nichtmagisch
+Stufe 6-8: 1W8+2, +2 ETW0, +1 verzaubert
+Stufe 9-11: 1W8+3, +3 ETW0, +2 verzaubert
+Stufe 12-14: 1W8+4, +4 ETW0, +2 verzaubert
+Stufe 15-17: 1W8+4, +4 ETW0, +3 verzaubert
+Stufe 18-23: 1W8+5, +5 ETW0, +4 verzaubert
+Stufe 24+: 1W8+5, +5 ETW0, +5 verzaubert
+-  Die Waffe hat keinen Initiativefaktor.
+-  Ab Stufe 12 teilt die Waffe zusätzlich einen +1-Elementarschaden aus der zufällig aus Feuer, Kälte, Säure oder Elektrizität besteht.
+-  Ab Stufe 24 kann die Waffe mit einer Wahrscheinlichkeit von 5% den Gegner augenblicklich töten.
+-  Bis Stufe 5 wird die Waffe mit zwei Fertigkeitspunkten benutzt. Von Stufe 6 bis 11 wird sie mit drei Fertigkeitspunkten geführt. Von Stufe 12 bis 17 wird die Waffe mit vier Fertigkeitspunkten geführt. Ab Stufe 18 kann der Schwertmagier die gewählte Waffe mit der maximalen Anzahl an Fertigkeitspunkten einsetzen.
+
+-  Auf Stufe 18 erhält der Schwertmagier die 'Klonen'-Fähigkeit, die eine schwächere Kopie von ihm erzeugt. Sie hält zwei Phasen an. Die Kopie hat 60% der Charakterstufe mit all seinen Fähigkeiten. Der Klon kann durch Magie, die Illusionen zerstört vernichtet werden.
+-  Alle 5 Stufen erhält der Schwertmagier eine weitere 'Klonen'-Fähigkeit.
+
+
+NACHTEILE:
+-  Kann keine Geschosswaffen benutzen.
+-  Kann nur einen Fertigkeitspunkt in jede Waffe investieren.
+-  Kann keine Rüstung tragen, die schwerer ist als ein beschlagener Lederwams.~
+
+@104 = ~SCHWERTMAGIER: Nicht alle Kämpfer vertrauen allein ihren Waffenkünsten. Einige trainieren auch ihren Verstand, um sich im Kampf z.B. mit Geisterwaffen oder Kopien von sich selbst zu behaupten. Diese Fähigkeiten machen sie zu ernstzunehmenden Gegnern in allen Situationen.
+
+VORTEILE:
+-  Erhält alle 3 Stufen - beginnend bei Stufe 3 - die Fähigkeit, eine geisterhafte Waffe zu erschaffen, die drei Phasen anhält. Während der Zauber aktiv ist, kann zwischen dem 'Geisterdolch' (Stichwaffe), dem 'Geisterstreitkolben' (Wuchtwaffe), der 'Geisteraxt' (Klingenwaffe) oder seiner physischen Waffe frei gewählt werden.
+-  Wenn der Schwertmagier aufsteigt, wird auch seine Waffe mächtiger:
+Stufe 3-5: 1W8+1, +1 ETW0, nichtmagisch
+Stufe 6-8: 1W8+2, +2 ETW0, +1 verzaubert
+Stufe 9-11: 1W8+3, +3 ETW0, +2 verzaubert
+Stufe 12-14: 1W8+4, +4 ETW0, +2 verzaubert
+Stufe 15-17: 1W8+4, +4 ETW0, +3 verzaubert
+Stufe 18-23: 1W8+5, +5 ETW0, +4 verzaubert
+Stufe 24+: 1W8+5, +5 ETW0, +5 verzaubert
+-  Die Waffe hat keinen Initiativefaktor.
+-  Ab Stufe 12 teilt die Waffe zusätzlich einen +1-Elementarschaden aus der zufällig aus Feuer, Kälte, Säure oder Elektrizität besteht.
+-  Ab Stufe 24 kann die Waffe mit einer Wahrscheinlichkeit von 5% den Gegner augenblicklich töten.
+-  Bis Stufe 5 wird die Waffe mit zwei Fertigkeitspunkten benutzt. Von Stufe 6 bis 11 wird sie mit drei Fertigkeitspunkten geführt. Von Stufe 12 bis 17 wird die Waffe mit vier Fertigkeitspunkten geführt. Ab Stufe 18 kann der Schwertmagier die gewählte Waffe mit der maximalen Anzahl an Fertigkeitspunkten einsetzen.
+
+-  Auf Stufe 8 erhält der Schwertmagier die Fähigkeit einen Klingengeist herbeizurufen, der unabhängig vom Kämpfer agieren kann. Er sieht aus wie eine schwebende Klinge und ist gegen jede Form von Schaden immun außer Magie. Der Klingengeist ist mit der Schwertversion der obengenannten Geisterwaffe ausgestattet, die sich auf der Stufe des Schwertmagiers befindet. Der Geist bleibt eine Phase erhalten.
+-  Alle 6 Stufen erhält der Schwertmagier eine weitere Klingengeist-Fähigkeit.
+
+-  Auf Stufe 18 erhält der Schwertmagier die 'Klonen'-Fähigkeit, die eine schwächere Kopie von ihm erzeugt. Sie hält zwei Phasen an. Die Kopie hat 60% der Charakterstufe mit all seinen Fähigkeiten. Der Klon kann durch Magie, die Illusionen zerstört vernichtet werden.
+-  Alle 5 Stufen erhält der Schwertmagier eine weitere 'Klonen'-Fähigkeit.
+
+
+NACHTEILE:
+-  Kann keine Geschosswaffen benutzen.
+-  Kann nur einen Fertigkeitspunkt in jede Waffe investieren.
+-  Kann keine Rüstung tragen, die schwerer ist als ein beschlagener Lederwams.~
+
+@120 = ~Geisterwaffe~
+@121 = ~Geisterwaffe +1~
+@122 = ~Geisterwaffe +2~
+@123 = ~Geisterwaffe +3~
+@124 = ~Geisterwaffe +4~
+@125 = ~Geisterwaffe +5~
+@126 = ~Geisterdolch~
+@127 = ~Geisterstreitkolben~
+@128 = ~Geisteraxt~
+@129 = ~Geisterwaffe entfernen~
+@130 = ~Geisterwaffen wurden Euren Besonderen Fähigkeiten hinzugefügt~
+@131 = ~Dieser Zauber ist bereits aktiv~
+
+@140 = ~Klonen~
+@141 = ~Ihr könnt immer nur über einen Klon gleichzeitig verfügen. Ihr müsst warten, bis die Wirkung des ersten Zaubers verflogen ist.
+
+@150 = ~Klingengeist herbeirufen~
+@151 = ~Klingengeist~
