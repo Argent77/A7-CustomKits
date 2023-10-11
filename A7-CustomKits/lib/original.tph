@@ -26,7 +26,7 @@ ADD_KIT ~A7_SPELLSWORD~
   ~A7_SPELLSWORD           0       1       1       1       1       0~
 
   // path to your CLAB-style 2da file 
-  ~CustomKits/original/A7cbspsd.2da~
+  ~A7-CustomKits/original/A7cbspsd.2da~
 
   // PC races and classes allowed to use this kit, from KITTABLE.2da
   ~K_F_H    K_F_D   K_F_G   K_F_E   K_F_HE   K_F_HL   K_F_HO~
@@ -47,45 +47,45 @@ ADD_KIT ~A7_SPELLSWORD~
 
 
 // level-specific spellsword weapons (blade only)...
-COPY ~CustomKits/original/A7blad03.itm~ ~override~
+COPY ~A7-CustomKits/original/A7blad03.itm~ ~override~
   SAY NAME1 @120
   SAY NAME2 @120
 
-COPY ~CustomKits/original/A7blad06.itm~ ~override~
+COPY ~A7-CustomKits/original/A7blad06.itm~ ~override~
   SAY NAME1 @121
   SAY NAME2 @121
 
-COPY ~CustomKits/original/A7blad09.itm~ ~override~
-     ~CustomKits/original/A7blad12.itm~ ~override~
+COPY ~A7-CustomKits/original/A7blad09.itm~ ~override~
+     ~A7-CustomKits/original/A7blad12.itm~ ~override~
   SAY NAME1 @122
   SAY NAME2 @122
 
-COPY ~CustomKits/original/A7blad15.itm~ ~override~
+COPY ~A7-CustomKits/original/A7blad15.itm~ ~override~
   SAY NAME1 @123
   SAY NAME2 @123
 
-COPY ~CustomKits/original/A7blad18.itm~ ~override~
+COPY ~A7-CustomKits/original/A7blad18.itm~ ~override~
   SAY NAME1 @124
   SAY NAME2 @124
 
-COPY ~CustomKits/original/A7blad24.itm~ ~override~
+COPY ~A7-CustomKits/original/A7blad24.itm~ ~override~
   SAY NAME1 @125
   SAY NAME2 @125
 
 
 // Summon Blade Spirit ability
-COPY ~CustomKits/original/A7sp103.bam~ ~override~
+COPY ~A7-CustomKits/original/A7sp103.bam~ ~override~
 
-COPY ~CustomKits/original/A7sp103.spl~ ~override~
+COPY ~A7-CustomKits/original/A7sp103.spl~ ~override~
   SAY NAME1 @150
 
-COPY ~CustomKits/original/A7blad03.cre~ ~override~
-     ~CustomKits/original/A7blad06.cre~ ~override~
-     ~CustomKits/original/A7blad09.cre~ ~override~
-     ~CustomKits/original/A7blad12.cre~ ~override~
-     ~CustomKits/original/A7blad15.cre~ ~override~
-     ~CustomKits/original/A7blad18.cre~ ~override~
-     ~CustomKits/original/A7blad24.cre~ ~override~
+COPY ~A7-CustomKits/original/A7blad03.cre~ ~override~
+     ~A7-CustomKits/original/A7blad06.cre~ ~override~
+     ~A7-CustomKits/original/A7blad09.cre~ ~override~
+     ~A7-CustomKits/original/A7blad12.cre~ ~override~
+     ~A7-CustomKits/original/A7blad15.cre~ ~override~
+     ~A7-CustomKits/original/A7blad18.cre~ ~override~
+     ~A7-CustomKits/original/A7blad24.cre~ ~override~
   SAY NAME1 @151
   SAY NAME2 @151
 

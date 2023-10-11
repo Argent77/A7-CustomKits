@@ -1,0 +1,69 @@
+BACKUP ~A7-CustomKits/backup~      // so WeiDU can uninstall
+AUTHOR ~argent77@yahoo.com~     // contact address displayed if installation fails
+
+VERSION ~v1.5~
+
+ALWAYS
+  ACTION_IF GAME_IS ~BGEE BG2EE IWDEE~ THEN BEGIN
+    ACTION_DEFINE_ARRAY A7_reload BEGIN
+    ~mod.tra~
+    END
+    ACTION_DEFINE_ARRAY A7_noconvert BEGIN END
+      LAF HANDLE_CHARSETS
+      INT_VAR
+      infer_charset = 1
+      STR_VAR
+      tra_path = EVAL ~%MOD_FOLDER%/tra~
+      noconvert_array = A7_noconvert
+      reload_array = A7_reload
+    END
+  END
+  INCLUDE ~A7-CustomKits/lib/fl#add_kit_ee.tpa~
+END
+
+// display readme.txt at the beginning
+README ~A7-CustomKits/readme.%LANGUAGE%.txt~ ~A7-CustomKits/readme.txt~
+
+LANGUAGE ~English~                        ~english~  ~A7-CustomKits/tra/english/setup.tra~ ~A7-CustomKits/tra/english/mod.tra~
+LANGUAGE ~Deutsch~                        ~german~   ~A7-CustomKits/tra/german/setup.tra~  ~A7-CustomKits/tra/german/mod.tra~
+LANGUAGE ~French (Thanks to Deratiseur)~  ~french~   ~A7-CustomKits/tra/french/setup.tra~  ~A7-CustomKits/tra/french/mod.tra~
+
+BEGIN @3                        // Nerfed version
+SUBCOMPONENT @1                 // Spellsword Kit
+
+// checking for problematic files...
+ACTION_IF ((NOT FILE_EXISTS ~override/spinA70.spl~) AND 
+           (NOT FILE_EXISTS ~override/spinA71.spl~) AND 
+           (NOT FILE_EXISTS ~override/spinA71A.spl~) AND 
+           (NOT FILE_EXISTS ~override/spinA72.spl~) AND 
+           (NOT FILE_EXISTS ~override/spinA72A.spl~) AND 
+           (NOT FILE_EXISTS ~override/spinA73.spl~) AND
+           (NOT FILE_EXISTS ~override/spinA73A.spl~)) THEN BEGIN
+    INCLUDE ~A7-CustomKits/lib/nerfed.tph~
+    INCLUDE ~A7-CustomKits/lib/shared.tph~
+    ACTION_IF GAME_IS ~BGEE BG2EE IWDEE~ THEN BEGIN
+        LAF fl#add_kit_ee STR_VAR kit_name = ~A7_SPELLSWORD~ END
+    END
+END ELSE BEGIN
+    PRINT @2
+END
+
+BEGIN @4                        // Original version
+SUBCOMPONENT @1                 // Spellsword Kit
+
+// checking for problematic files...
+ACTION_IF ((NOT FILE_EXISTS ~override/spinA70.spl~) AND 
+           (NOT FILE_EXISTS ~override/spinA71.spl~) AND 
+           (NOT FILE_EXISTS ~override/spinA71A.spl~) AND 
+           (NOT FILE_EXISTS ~override/spinA72.spl~) AND 
+           (NOT FILE_EXISTS ~override/spinA72A.spl~) AND 
+           (NOT FILE_EXISTS ~override/spinA73.spl~) AND
+           (NOT FILE_EXISTS ~override/spinA73A.spl~)) THEN BEGIN
+    INCLUDE ~A7-CustomKits/lib/original.tph~
+    INCLUDE ~A7-CustomKits/lib/shared.tph~
+    ACTION_IF GAME_IS ~BGEE BG2EE IWDEE~ THEN BEGIN
+        LAF fl#add_kit_ee STR_VAR kit_name = ~A7_SPELLSWORD~ END
+    END
+END ELSE BEGIN
+    PRINT @2
+END

@@ -1,0 +1,79 @@
+// level-specific spellsword weapons...
+COPY ~A7-CustomKits/shared/A7blun.bam~ ~override~
+     ~A7-CustomKits/shared/A7dagg.bam~ ~override~
+     ~A7-CustomKits/shared/A7ax1h.bam~ ~override~
+
+COPY ~A7-CustomKits/shared/A7crsh03.itm~ ~override~
+     ~A7-CustomKits/shared/A7pirc03.itm~ ~override~
+     ~A7-CustomKits/shared/A7slsh03.itm~ ~override~
+  SAY NAME1 @120
+  SAY NAME2 @120
+
+COPY ~A7-CustomKits/shared/A7crsh06.itm~ ~override~
+     ~A7-CustomKits/shared/A7pirc06.itm~ ~override~
+     ~A7-CustomKits/shared/A7slsh06.itm~ ~override~
+  SAY NAME1 @121
+  SAY NAME2 @121
+
+COPY ~A7-CustomKits/shared/A7crsh09.itm~ ~override~
+     ~A7-CustomKits/shared/A7pirc09.itm~ ~override~
+     ~A7-CustomKits/shared/A7slsh09.itm~ ~override~
+     ~A7-CustomKits/shared/A7crsh12.itm~ ~override~
+     ~A7-CustomKits/shared/A7pirc12.itm~ ~override~
+     ~A7-CustomKits/shared/A7slsh12.itm~ ~override~
+  SAY NAME1 @122
+  SAY NAME2 @122
+
+COPY ~A7-CustomKits/shared/A7crsh15.itm~ ~override~
+     ~A7-CustomKits/shared/A7pirc15.itm~ ~override~
+     ~A7-CustomKits/shared/A7slsh15.itm~ ~override~
+  SAY NAME1 @123
+  SAY NAME2 @123
+
+COPY ~A7-CustomKits/shared/A7crsh18.itm~ ~override~
+     ~A7-CustomKits/shared/A7pirc18.itm~ ~override~
+     ~A7-CustomKits/shared/A7slsh18.itm~ ~override~
+  SAY NAME1 @124
+  SAY NAME2 @124
+
+COPY ~A7-CustomKits/shared/A7crsh24.itm~ ~override~
+     ~A7-CustomKits/shared/A7pirc24.itm~ ~override~
+     ~A7-CustomKits/shared/A7slsh24.itm~ ~override~
+  SAY NAME1 @125
+  SAY NAME2 @125
+
+// Spirit Weapon ability
+COPY ~A7-CustomKits/shared/A7sp101.2da~ ~override~
+COPY ~A7-CustomKits/shared/A7sp101.spl~ ~override~
+  SAY NAME1 @120
+  SAY 0x27e @130                // STRREF set for text output (effect #139)
+  SAY 0x2de @131                // STRREF set for spell protection (effect #206)
+
+// Spell: Spirit Dagger
+COPY ~A7-CustomKits/shared/spinA71.spl~ ~override~
+     ~A7-CustomKits/shared/spinA71a.spl~ ~override~
+  SAY NAME1 @126
+
+// Spell: Spirit Mace
+COPY ~A7-CustomKits/shared/spinA72.spl~ ~override~
+     ~A7-CustomKits/shared/spinA72a.spl~ ~override~
+  SAY NAME1 @127
+
+// Spell: Spirit Axe
+COPY ~A7-CustomKits/shared/spinA73.spl~ ~override~
+     ~A7-CustomKits/shared/spinA73a.spl~ ~override~
+  SAY NAME1 @128
+
+// Spell: Remove Spirit Weapon
+COPY ~A7-CustomKits/shared/A7spwp99.bam~ ~override~
+COPY ~A7-CustomKits/shared/A7spwp99.spl~ ~override~
+     ~A7-CustomKits/shared/spinA70.spl~ ~override~
+  SAY NAME1 @129
+
+
+// Clone ability
+COPY ~A7-CustomKits/shared/A7sp102.bam~ ~override~
+COPY ~A7-CustomKits/shared/A7sp102.spl~ ~override~
+  SAY NAME1 @140
+  SAY 0x12e @141                // STRREF set for spell protection (effect #206)
+

@@ -1,0 +1,74 @@
+@101 = ~magelame~
+@102 = ~Magelame~
+
+@103 = ~MAGELAME: Tous les guerriers ne dépendent pas de leur puissance physique. Certains entraînent aussi leur esprit pour l'utiliser efficacement en créant des armes spirituelles ou en se clonant eux même. Considérez ceux-là comme des adversaires dangereux en toute occasion.
+
+AVANTAGES:
+- À partir du niveau 3 et tous les 3 niveaux ensuite, il peut créer une arme spirituelle de son choix une fois par jour et pour trois tours. Quand il active le sort, il peut librement choisir entre la "Dague spirituelle "(une arme perçante), la "Masse spirituelle" (une arme contondante) et la "Hache spirituelle" (une arme tranchante), ou choisir de s'en remettre à son arme physique avec la capacité "Supprimer l'arme spirituelle".
+- L'arme spirituelle devient plus puissante au fur et à mesure de la progression du Magelame : 
+Niveau 3-5 : 1D8+1, +1 au TAC0, non-magique
+Niveau 6-8 : 1D8+2, +2 au TAC0, enchantée +1
+Niveau 9-11 : 1D8+3, +3 au TAC0, enchantée +2
+Niveau 12-14 : 1D8+4, +4 au TAC0,  enchantée +2
+Niveau 15-17 : 1D8+4, +4 au TAC0, enchantée +3
+Niveau 18-23 : 1D8+5, +5 au TAC0, enchantée +4
+Niveau 24+ : 1D8+5, +5 au TAC0, enchantée +5
+- L'arme n'a pas de facteur de vitesse
+- À partir du niveau 12 l'arme inflige 1 point de dégât élémentaire aléatoire en touchant (feu, froid, acide ou électricité)
+- À partir du niveau 24 l'arme a 5% de chance de tuer instantanément la cible
+- Tous les 6 niveaux il gagne un niveau de compétence supérieur quand il utilise son arme spirituelle. Du niveau 6 au niveau 11, il utilise l'arme comme un maître. Du niveau 12  au niveau 17 il l'utilise comme un haut maître. Et à partir du niveau 18, il l'utilise comme un grand maître.
+
+- À partir du niveau 18 et tous les 5 niveaux ensuite, il gagne une fois par jour la capacité "Clone" qui peut créer une copie amoindrie de lui même pendant deux tours. La copie à 60% du niveau et des capacités du Magelame. Elle peut être détruite par les sorts qui dissipent les illusions.
+
+
+DÉSAVANTAGES :
+- Il ne peut pas utiliser d'armes de trait.
+- Il peut seulement devenir compétent avec les armes de mêlée.
+- Il ne peut pas porter d'armure plus épaisse que celle de cuir clouté.~
+
+
+@104 = ~MAGELAME: Tous les guerriers ne dépendent pas de leur puissance physique. Certains entraînent aussi leur esprit pour l'utiliser efficacement en créant des armes spirituelles ou en se clonant eux même. Considérez ceux-là comme des adversaires dangereux en toute occasion.
+
+AVANTAGES:
+- À partir du niveau 3 et tous les 3 niveaux ensuite, il peut créer une arme spirituelle de son choix une fois par jour et pour trois tours. Quand il active le sort, il peut librement choisir entre la "Dague spirituelle "(une arme perçante), la "Masse spirituelle" (une arme contondante) et la "Hache spirituelle" (une arme tranchante), ou choisir de s'en remettre à son arme physique avec la capacité "Supprimer l'arme spirituelle".
+- L'arme spirituelle devient plus puissante au fur et à mesure de la progression du Magelame : 
+Niveau 3-5 : 1D8+1, +1 au TAC0, non-magique
+Niveau 6-8 : 1D8+2, +2 au TAC0, enchantée +1
+Niveau 9-11 : 1D8+3, +3 au TAC0, enchantée +2
+Niveau 12-14 : 1D8+4, +4 au TAC0,  enchantée +2
+Niveau 15-17 : 1D8+4, +4 au TAC0, enchantée +3
+Niveau 18-23 : 1D8+5, +5 au TAC0, enchantée +4
+Niveau 24+ : 1D8+5, +5 au TAC0, enchantée +5
+- L'arme n'a pas de facteur de vitesse
+- À partir du niveau 12 l'arme inflige 1 point de dégât élémentaire aléatoire en touchant (feu, froid, acide ou électricité)
+- À partir du niveau 24 l'arme a 5% de chance de tuer instantanément la cible
+- Tous les 6 niveaux il gagne un niveau de compétence supérieur quand il utilise son arme spirituelle. Du niveau 6 au niveau 11, il utilise l'arme comme un maître. Du niveau 12  au niveau 17 il l'utilise comme un haut maître. Et à partir du niveau 18, il l'utilise comme un grand maître.
+
+- À partir du niveau 8 et tous les 6 niveaux ensuite, il gagne la capacité "Invoquer une Epée Spirituelle" qui convoque une arme qui peut agir indépendamment de lui même pendant un tour. L’épée volante est est invulnérable à tout sauf aux attaques magiques. Elle attaque avec les caractéristiques d'une arme spirituelle correspondant au niveau du Magelame.
+
+- À partir du niveau 18 et tous les 5 niveaux ensuite, il gagne une fois par jour la capacité "Clone" qui peut créer une copie amoindrie de lui même pendant deux tours. La copie à 60% du niveau et des capacités du Magelame. Elle peut être détruite par les sorts qui dissipent les illusions.
+
+
+DÉSAVANTAGES :
+- Il ne peut pas utiliser d'armes de trait.
+- Il peut seulement devenir compétent avec les armes de mêlée.
+- Il ne peut pas porter d'armure plus épaisse que celle de cuir clouté.~
+
+@120 = ~Arme Spirituelle~
+@121 = ~Arme Spirituelle +1~
+@122 = ~Arme Spirituelle +2~
+@123 = ~Arme Spirituelle +3~
+@124 = ~Arme Spirituelle +4~
+@125 = ~Arme Spirituelle +5~
+@126 = ~Dague Spirituelle~
+@127 = ~Masse Spirituelle~
+@128 = ~Hache Spirituelle~
+@129 = ~Supprimer l'Arme Spirituelle~
+@130 = ~"Arme Spirituelle" a été ajouté à votre menu de capacités spéciales~
+@131 = ~Ce sort est déjà actif~
+
+@140 = ~Clone~
+@141 = ~Vous avez déjà un clone acif. Vous devez attendre la fin de la durée du sort précédent.~
+
+@150 = ~Invoquer une Epée Spirituelle~
+@151 = ~Épée Spirituelle~

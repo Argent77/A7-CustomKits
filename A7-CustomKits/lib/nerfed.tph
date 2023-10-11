@@ -26,7 +26,7 @@ ADD_KIT ~A7_SPELLSWORD~
   ~A7_SPELLSWORD           0       1       1       1       1       0~
 
   // path to your CLAB-style 2da file 
-  ~CustomKits/nerfed/A7cbspsd.2da~
+  ~A7-CustomKits/nerfed/A7cbspsd.2da~
 
   // PC races and classes allowed to use this kit, from KITTABLE.2da
   ~K_F_H    K_F_D   K_F_G   K_F_E   K_F_HE   K_F_HL   K_F_HO~
