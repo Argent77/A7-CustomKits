@@ -1,0 +1,29 @@
+// Starting gear for a new SoD game
+IF
+  Global("BD_TURNOFF_GEARSCRIPT","BD0120",0)
+  !Class(Player1,FIGHTER_MAGE)
+  !Class(Player1,FIGHTER_MAGE_THIEF)
+  !Class(Player1,FIGHTER_MAGE_CLERIC)
+  Kit(Player1,A7_SPELLSWORD)
+  Global("SOD_fromimport","global",0)
+  Global("BD_Armor","BD0120",0)
+THEN
+  RESPONSE #25
+    SetGlobal("BD_Armor","BD0120",2)
+    GiveItemCreate("leat09",Player1,0,0,0)
+    ActionOverride(Player1,SetItemFlags("leat09",IDENTIFIED,TRUE))
+    XEquipItem("leat09",Player1,SLOT_ARMOR,EQUIP)
+    Continue()
+  RESPONSE #25
+    SetGlobal("BD_Armor","BD0120",2)
+    GiveItemCreate("leat12",Player1,0,0,0)
+    ActionOverride(Player1,SetItemFlags("leat12",IDENTIFIED,TRUE))
+    XEquipItem("leat12",Player1,SLOT_ARMOR,EQUIP)
+    Continue()
+  RESPONSE #50
+    SetGlobal("BD_Armor","BD0120",2)
+    GiveItemCreate("leat15",Player1,0,0,0)
+    ActionOverride(Player1,SetItemFlags("leat15",IDENTIFIED,TRUE))
+    XEquipItem("leat15",Player1,SLOT_ARMOR,EQUIP)
+    Continue()
+END

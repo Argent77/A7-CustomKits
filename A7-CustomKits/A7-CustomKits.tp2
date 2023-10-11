@@ -1,0 +1,88 @@
+BACKUP ~weidu_external/backup/A7-CustomKits~  // so WeiDU can uninstall
+SUPPORT ~http://www.shsforums.net/topic/45487-custom-kits-the-spellsword/~
+
+VERSION ~v1.6~
+
+ALWAYS
+  // required because of non-standard BACKUP path
+  OUTER_TEXT_SPRINT MOD_FOLDER ~A7-CustomKits~
+  // root folder for mutable data
+  OUTER_TEXT_SPRINT WORK_FOLDER ~weidu_external~
+
+  ACTION_IF ((FILE_EXISTS ~dlc/sod-dlc.zip~) OR (FILE_EXISTS ~sod-dlc.zip~)) THEN BEGIN
+    FAIL @51 // DLC Merger is required before mods can be installed on this game. Check the readme for more information and a link to download DLC Merger.
+  END
+
+  ACTION_DEFINE_ARRAY a7noconvert BEGIN ~setup~ END
+  ACTION_DEFINE_ARRAY a7reload BEGIN ~mod~ END
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      from_utf8         = 1
+      infer_charset     = 1
+    STR_VAR
+      default_language  = ~english~
+      tra_path          = EVAL ~%MOD_FOLDER%/tra~
+      out_path          = EVAL ~%WORK_FOLDER%/lang/%MOD_FOLDER%~
+      noconvert_array   = ~a7noconvert~
+      reload_array      = ~a7reload~
+  END
+
+  INCLUDE ~%MOD_FOLDER%/lib/a7#add_kit_ex.tpa~
+END
+
+README ~A7-CustomKits/readme/readme-%LANGUAGE%.txt~ ~A7-CustomKits/readme/readme.txt~
+
+LANGUAGE ~English~
+         ~english~
+         ~A7-CustomKits/tra/english/setup.tra~
+         ~A7-CustomKits/tra/english/mod.tra~
+LANGUAGE ~Deutsch~
+         ~german~
+         ~A7-CustomKits/tra/english/setup.tra~
+         ~A7-CustomKits/tra/english/mod.tra~
+         ~A7-CustomKits/tra/german/setup.tra~
+         ~A7-CustomKits/tra/german/mod.tra~
+LANGUAGE ~French (Thanks to Deratiseur)~
+         ~french~
+         ~A7-CustomKits/tra/english/setup.tra~
+         ~A7-CustomKits/tra/english/mod.tra~
+         ~A7-CustomKits/tra/french/setup.tra~
+         ~A7-CustomKits/tra/french/mod.tra~
+
+BEGIN @3  // Nerfed version
+SUBCOMPONENT @1 // Spellsword Kit
+DESIGNATED 0
+LABEL ~A7-CUSTOMKITS-MAIN_NERFED~
+
+// checking for problematic files...
+ACTION_IF ((NOT FILE_EXISTS_IN_GAME ~spinA70.spl~) AND 
+           (NOT FILE_EXISTS_IN_GAME ~spinA71.spl~) AND 
+           (NOT FILE_EXISTS_IN_GAME ~spinA71A.spl~) AND 
+           (NOT FILE_EXISTS_IN_GAME ~spinA72.spl~) AND 
+           (NOT FILE_EXISTS_IN_GAME ~spinA72A.spl~) AND 
+           (NOT FILE_EXISTS_IN_GAME ~spinA73.spl~) AND
+           (NOT FILE_EXISTS_IN_GAME ~spinA73A.spl~)) THEN BEGIN
+  INCLUDE ~A7-CustomKits/lib/nerfed.tph~
+  INCLUDE ~A7-CustomKits/lib/shared.tph~
+END ELSE BEGIN
+  FAIL @50  // Skipping component. One or more files are already in use by another mod.
+END
+
+BEGIN @4  // Original version
+SUBCOMPONENT @1 // Spellsword Kit
+DESIGNATED 1
+LABEL ~A7-CUSTOMKITS-MAIN_ORIGINAL~
+
+// checking for problematic files...
+ACTION_IF ((NOT FILE_EXISTS_IN_GAME ~spinA70.spl~) AND 
+           (NOT FILE_EXISTS_IN_GAME ~spinA71.spl~) AND 
+           (NOT FILE_EXISTS_IN_GAME ~spinA71A.spl~) AND 
+           (NOT FILE_EXISTS_IN_GAME ~spinA72.spl~) AND 
+           (NOT FILE_EXISTS_IN_GAME ~spinA72A.spl~) AND 
+           (NOT FILE_EXISTS_IN_GAME ~spinA73.spl~) AND
+           (NOT FILE_EXISTS_IN_GAME ~spinA73A.spl~)) THEN BEGIN
+  INCLUDE ~A7-CustomKits/lib/original.tph~
+  INCLUDE ~A7-CustomKits/lib/shared.tph~
+END ELSE BEGIN
+  FAIL @50  // Skipping component. One or more files are already in use by another mod.
+END

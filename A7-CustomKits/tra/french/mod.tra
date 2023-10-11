@@ -1,58 +1,58 @@
 @101 = ~magelame~
 @102 = ~Magelame~
 
-@103 = ~MAGELAME: Tous les guerriers ne dépendent pas de leur puissance physique. Certains entraînent aussi leur esprit pour l'utiliser efficacement en créant des armes spirituelles ou en se clonant eux même. Considérez ceux-là comme des adversaires dangereux en toute occasion.
+@103 = ~MAGELAME: Tous les guerriers ne dÃ©pendent pas de leur puissance physique. Certains entraÃ®nent aussi leur esprit pour l'utiliser efficacement en crÃ©ant des armes spirituelles ou en se clonant eux mÃªme. ConsidÃ©rez ceux-lÃ  comme des adversaires dangereux en toute occasion.
 
 AVANTAGES:
-- À partir du niveau 3 et tous les 3 niveaux ensuite, il peut créer une arme spirituelle de son choix une fois par jour et pour trois tours. Quand il active le sort, il peut librement choisir entre la "Dague spirituelle "(une arme perçante), la "Masse spirituelle" (une arme contondante) et la "Hache spirituelle" (une arme tranchante), ou choisir de s'en remettre à son arme physique avec la capacité "Supprimer l'arme spirituelle".
-- L'arme spirituelle devient plus puissante au fur et à mesure de la progression du Magelame : 
+- Ã€ partir du niveau 3 et tous les 3 niveaux ensuite, il peut crÃ©er une arme spirituelle de son choix une fois par jour et pour trois tours. Quand il active le sort, il peut librement choisir entre la "Dague spirituelle "(une arme perÃ§ante), la "Masse spirituelle" (une arme contondante) et la "Hache spirituelle" (une arme tranchante), ou choisir de s'en remettre Ã  son arme physique avec la capacitÃ© "Supprimer l'arme spirituelle".
+- L'arme spirituelle devient plus puissante au fur et Ã  mesure de la progression du Magelame : 
 Niveau 3-5 : 1D8+1, +1 au TAC0, non-magique
-Niveau 6-8 : 1D8+2, +2 au TAC0, enchantée +1
-Niveau 9-11 : 1D8+3, +3 au TAC0, enchantée +2
-Niveau 12-14 : 1D8+4, +4 au TAC0,  enchantée +2
-Niveau 15-17 : 1D8+4, +4 au TAC0, enchantée +3
-Niveau 18-23 : 1D8+5, +5 au TAC0, enchantée +4
-Niveau 24+ : 1D8+5, +5 au TAC0, enchantée +5
+Niveau 6-8 : 1D8+2, +2 au TAC0, enchantÃ©e +1
+Niveau 9-11 : 1D8+3, +3 au TAC0, enchantÃ©e +2
+Niveau 12-14 : 1D8+4, +4 au TAC0,  enchantÃ©e +2
+Niveau 15-17 : 1D8+4, +4 au TAC0, enchantÃ©e +3
+Niveau 18-23 : 1D8+5, +5 au TAC0, enchantÃ©e +4
+Niveau 24+ : 1D8+5, +5 au TAC0, enchantÃ©e +5
 - L'arme n'a pas de facteur de vitesse
-- À partir du niveau 12 l'arme inflige 1 point de dégât élémentaire aléatoire en touchant (feu, froid, acide ou électricité)
-- À partir du niveau 24 l'arme a 5% de chance de tuer instantanément la cible
-- Tous les 6 niveaux il gagne un niveau de compétence supérieur quand il utilise son arme spirituelle. Du niveau 6 au niveau 11, il utilise l'arme comme un maître. Du niveau 12  au niveau 17 il l'utilise comme un haut maître. Et à partir du niveau 18, il l'utilise comme un grand maître.
+- Ã€ partir du niveau 12 l'arme inflige 1 point de dÃ©gÃ¢t Ã©lÃ©mentaire alÃ©atoire en touchant (feu, froid, acide ou Ã©lectricitÃ©)
+- Ã€ partir du niveau 24 l'arme a 5% de chance de tuer instantanÃ©ment la cible
+- Tous les 6 niveaux il gagne un niveau de compÃ©tence supÃ©rieur quand il utilise son arme spirituelle. Du niveau 6 au niveau 11, il utilise l'arme comme un maÃ®tre. Du niveau 12  au niveau 17 il l'utilise comme un haut maÃ®tre. Et Ã  partir du niveau 18, il l'utilise comme un grand maÃ®tre.
 
-- À partir du niveau 18 et tous les 5 niveaux ensuite, il gagne une fois par jour la capacité "Clone" qui peut créer une copie amoindrie de lui même pendant deux tours. La copie à 60% du niveau et des capacités du Magelame. Elle peut être détruite par les sorts qui dissipent les illusions.
+- Ã€ partir du niveau 18 et tous les 5 niveaux ensuite, il gagne une fois par jour la capacitÃ© "Clone" qui peut crÃ©er une copie amoindrie de lui mÃªme pendant deux tours. La copie Ã  60% du niveau et des capacitÃ©s du Magelame. Elle peut Ãªtre dÃ©truite par les sorts qui dissipent les illusions.
 
 
-DÉSAVANTAGES :
+DÃ‰SAVANTAGES :
 - Il ne peut pas utiliser d'armes de trait.
-- Il peut seulement devenir compétent avec les armes de mêlée.
-- Il ne peut pas porter d'armure plus épaisse que celle de cuir clouté.~
+- Il peut seulement devenir compÃ©tent avec les armes de mÃªlÃ©e.
+- Il ne peut pas porter d'armure plus Ã©paisse que celle de cuir cloutÃ©.~
 
 
-@104 = ~MAGELAME: Tous les guerriers ne dépendent pas de leur puissance physique. Certains entraînent aussi leur esprit pour l'utiliser efficacement en créant des armes spirituelles ou en se clonant eux même. Considérez ceux-là comme des adversaires dangereux en toute occasion.
+@104 = ~MAGELAME: Tous les guerriers ne dÃ©pendent pas de leur puissance physique. Certains entraÃ®nent aussi leur esprit pour l'utiliser efficacement en crÃ©ant des armes spirituelles ou en se clonant eux mÃªme. ConsidÃ©rez ceux-lÃ  comme des adversaires dangereux en toute occasion.
 
 AVANTAGES:
-- À partir du niveau 3 et tous les 3 niveaux ensuite, il peut créer une arme spirituelle de son choix une fois par jour et pour trois tours. Quand il active le sort, il peut librement choisir entre la "Dague spirituelle "(une arme perçante), la "Masse spirituelle" (une arme contondante) et la "Hache spirituelle" (une arme tranchante), ou choisir de s'en remettre à son arme physique avec la capacité "Supprimer l'arme spirituelle".
-- L'arme spirituelle devient plus puissante au fur et à mesure de la progression du Magelame : 
+- Ã€ partir du niveau 3 et tous les 3 niveaux ensuite, il peut crÃ©er une arme spirituelle de son choix une fois par jour et pour trois tours. Quand il active le sort, il peut librement choisir entre la "Dague spirituelle "(une arme perÃ§ante), la "Masse spirituelle" (une arme contondante) et la "Hache spirituelle" (une arme tranchante), ou choisir de s'en remettre Ã  son arme physique avec la capacitÃ© "Supprimer l'arme spirituelle".
+- L'arme spirituelle devient plus puissante au fur et Ã  mesure de la progression du Magelame : 
 Niveau 3-5 : 1D8+1, +1 au TAC0, non-magique
-Niveau 6-8 : 1D8+2, +2 au TAC0, enchantée +1
-Niveau 9-11 : 1D8+3, +3 au TAC0, enchantée +2
-Niveau 12-14 : 1D8+4, +4 au TAC0,  enchantée +2
-Niveau 15-17 : 1D8+4, +4 au TAC0, enchantée +3
-Niveau 18-23 : 1D8+5, +5 au TAC0, enchantée +4
-Niveau 24+ : 1D8+5, +5 au TAC0, enchantée +5
+Niveau 6-8 : 1D8+2, +2 au TAC0, enchantÃ©e +1
+Niveau 9-11 : 1D8+3, +3 au TAC0, enchantÃ©e +2
+Niveau 12-14 : 1D8+4, +4 au TAC0,  enchantÃ©e +2
+Niveau 15-17 : 1D8+4, +4 au TAC0, enchantÃ©e +3
+Niveau 18-23 : 1D8+5, +5 au TAC0, enchantÃ©e +4
+Niveau 24+ : 1D8+5, +5 au TAC0, enchantÃ©e +5
 - L'arme n'a pas de facteur de vitesse
-- À partir du niveau 12 l'arme inflige 1 point de dégât élémentaire aléatoire en touchant (feu, froid, acide ou électricité)
-- À partir du niveau 24 l'arme a 5% de chance de tuer instantanément la cible
-- Tous les 6 niveaux il gagne un niveau de compétence supérieur quand il utilise son arme spirituelle. Du niveau 6 au niveau 11, il utilise l'arme comme un maître. Du niveau 12  au niveau 17 il l'utilise comme un haut maître. Et à partir du niveau 18, il l'utilise comme un grand maître.
+- Ã€ partir du niveau 12 l'arme inflige 1 point de dÃ©gÃ¢t Ã©lÃ©mentaire alÃ©atoire en touchant (feu, froid, acide ou Ã©lectricitÃ©)
+- Ã€ partir du niveau 24 l'arme a 5% de chance de tuer instantanÃ©ment la cible
+- Tous les 6 niveaux il gagne un niveau de compÃ©tence supÃ©rieur quand il utilise son arme spirituelle. Du niveau 6 au niveau 11, il utilise l'arme comme un maÃ®tre. Du niveau 12  au niveau 17 il l'utilise comme un haut maÃ®tre. Et Ã  partir du niveau 18, il l'utilise comme un grand maÃ®tre.
 
-- À partir du niveau 8 et tous les 6 niveaux ensuite, il gagne la capacité "Invoquer une Epée Spirituelle" qui convoque une arme qui peut agir indépendamment de lui même pendant un tour. L’épée volante est est invulnérable à tout sauf aux attaques magiques. Elle attaque avec les caractéristiques d'une arme spirituelle correspondant au niveau du Magelame.
+- Ã€ partir du niveau 8 et tous les 6 niveaux ensuite, il gagne la capacitÃ© "Invoquer une Ã‰pÃ©e Spirituelle" qui convoque une arme qui peut agir indÃ©pendamment de lui mÃªme pendant un tour. Lâ€™Ã©pÃ©e volante est est invulnÃ©rable Ã  tout sauf aux attaques magiques. Elle attaque avec les caractÃ©ristiques d'une arme spirituelle correspondant au niveau du Magelame.
 
-- À partir du niveau 18 et tous les 5 niveaux ensuite, il gagne une fois par jour la capacité "Clone" qui peut créer une copie amoindrie de lui même pendant deux tours. La copie à 60% du niveau et des capacités du Magelame. Elle peut être détruite par les sorts qui dissipent les illusions.
+- Ã€ partir du niveau 18 et tous les 5 niveaux ensuite, il gagne une fois par jour la capacitÃ© "Clone" qui peut crÃ©er une copie amoindrie de lui mÃªme pendant deux tours. La copie Ã  60% du niveau et des capacitÃ©s du Magelame. Elle peut Ãªtre dÃ©truite par les sorts qui dissipent les illusions.
 
 
-DÉSAVANTAGES :
+DÃ‰SAVANTAGES :
 - Il ne peut pas utiliser d'armes de trait.
-- Il peut seulement devenir compétent avec les armes de mêlée.
-- Il ne peut pas porter d'armure plus épaisse que celle de cuir clouté.~
+- Il peut seulement devenir compÃ©tent avec les armes de mÃªlÃ©e.
+- Il ne peut pas porter d'armure plus Ã©paisse que celle de cuir cloutÃ©.~
 
 @120 = ~Arme Spirituelle~
 @121 = ~Arme Spirituelle +1~
@@ -64,11 +64,45 @@ DÉSAVANTAGES :
 @127 = ~Masse Spirituelle~
 @128 = ~Hache Spirituelle~
 @129 = ~Supprimer l'Arme Spirituelle~
-@130 = ~"Arme Spirituelle" a été ajouté à votre menu de capacités spéciales~
-@131 = ~Ce sort est déjà actif~
+@130 = ~"Arme Spirituelle" a Ã©tÃ© ajoutÃ© Ã  votre menu de capacitÃ©s spÃ©ciales~
+@131 = ~Ce sort est dÃ©jÃ  actif~
+@132 = ~Arme Spirituelle
+
+Cette capacitÃ© crÃ©e une arme spirituelle qui dure trois tours. Lorsqu'il utilise cette capacitÃ©, le porteur peut choisir librement entre trois manifestations diffÃ©rentes : Dague spirituelle (arme perÃ§ante), Masse spirituelle (arme contondante) et Hache spirituelle (arme tranchante), ou choisir de ne pas brandir d'arme spirituelle du tout.
+Au fur et Ã  mesure que le Magelame augmente de niveau, l'arme devient plus puissante :
+Niveau 3-5 : 1D8+1, TAC0 +1, non-magique.
+Niveau 6-8 : 1D8+2, TAC0 +2, enchantÃ©e +1
+Niveau 9-11 : 1D8+3, TAC0 +3, enchantÃ©e +2
+Niveau 12-14 : 1D8+4, TAC0 +4, enchantÃ©e +2
+Niveau 15-17 : 1D8+4, TAC0 +4, enchantÃ©e +3
+Niveau 18-23 : 1D8+5, TAC0 +5, enchantÃ©e +4
+Niveau 24+ : 1D8+5, TAC0 +5, enchantÃ©e +5
+
+- L'arme n'a pas de facteur de vitesse.
+- Au niveau 12 et plus, l'arme inflige +1 dÃ©gÃ¢t Ã©lÃ©mentaire alÃ©atoire (feu, froid, acide ou foudre) par coup.
+- Au niveau 24 et plus, l'arme a 5% de chances de tuer la victime instantanÃ©ment.
+- Jusqu'au niveau 5, l'arme est utilisÃ©e comme un spÃ©cialiste. Du niveau 6 Ã  11, elle est utilisÃ©e comme un maÃ®tre. Du niveau 12 Ã  17, elle est utilisÃ©e comme un haut maÃ®tre. Au niveau 18 et plus, elle elle est utilisÃ©e comme un grand maÃ®tre.~
+@133 = ~Dague spirituelle
+
+Cette capacitÃ© crÃ©e une dague spirituelle dans la main du porteur, qui inflige des dÃ©gÃ¢ts perforants Ã  la cible.~
+@134 = ~Masse spirituelle
+
+Cette capacitÃ© crÃ©e une masse spirituelle dans la main du porteur, qui inflige des dÃ©gÃ¢ts contondants Ã  la cible.~
+@135 = ~Hache spirituelle
+
+Cette capacitÃ© crÃ©e une hache spirituelle dans la main du porteur, qui inflige des dÃ©gÃ¢ts tranchants Ã  la cible.~
+@136 = ~Suppression de l'arme spirituelle
+
+Cette capacitÃ© supprime l'arme spirituelle et permet au porteur d'utiliser ses armes physiques.~
 
 @140 = ~Clone~
-@141 = ~Vous avez déjà un clone acif. Vous devez attendre la fin de la durée du sort précédent.~
+@141 = ~Vous avez dÃ©jÃ  un clone acif. Vous devez attendre la fin de la durÃ©e du sort prÃ©cÃ©dent.~
+@142 = ~Clone
 
-@150 = ~Invoquer une Epée Spirituelle~
-@151 = ~Épée Spirituelle~
+Cette capacitÃ© crÃ©e un clone moins puissant du lanceur de sorts pendant deux tours. Il possÃ¨de 60 % du niveau du Magelame et de ses capacitÃ©s. Il peut Ãªtre dissipÃ© avec succÃ¨s par des sorts qui dÃ©truisent les illusions.~
+
+@150 = ~Invoquer une Ã‰pÃ©e Spirituelle~
+@151 = ~Ã‰pÃ©e Spirituelle~
+@152 = ~Invoquer une Ã‰pÃ©e Spirituelle
+
+Cette capacitÃ© permet d'invoquer une arme qui agit indÃ©pendamment du combattant. Elle ressemble Ã  une lame flottante et est invulnÃ©rable Ã  tout sauf aux attaques magiques. La lame dure un tour.~

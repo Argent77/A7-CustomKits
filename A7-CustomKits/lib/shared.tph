@@ -1,79 +1,110 @@
 // level-specific spellsword weapons...
-COPY ~A7-CustomKits/shared/A7blun.bam~ ~override~
-     ~A7-CustomKits/shared/A7dagg.bam~ ~override~
-     ~A7-CustomKits/shared/A7ax1h.bam~ ~override~
+COPY ~%MOD_FOLDER%/shared/A7blun.bam~ ~override~
+     ~%MOD_FOLDER%/shared/A7dagg.bam~ ~override~
+     ~%MOD_FOLDER%/shared/A7ax1h.bam~ ~override~
 
-COPY ~A7-CustomKits/shared/A7crsh03.itm~ ~override~
-     ~A7-CustomKits/shared/A7pirc03.itm~ ~override~
-     ~A7-CustomKits/shared/A7slsh03.itm~ ~override~
+COPY ~%MOD_FOLDER%/shared/A7crsh03.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7pirc03.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7slsh03.itm~ ~override~
   SAY NAME1 @120
   SAY NAME2 @120
 
-COPY ~A7-CustomKits/shared/A7crsh06.itm~ ~override~
-     ~A7-CustomKits/shared/A7pirc06.itm~ ~override~
-     ~A7-CustomKits/shared/A7slsh06.itm~ ~override~
+COPY ~%MOD_FOLDER%/shared/A7crsh06.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7pirc06.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7slsh06.itm~ ~override~
   SAY NAME1 @121
   SAY NAME2 @121
 
-COPY ~A7-CustomKits/shared/A7crsh09.itm~ ~override~
-     ~A7-CustomKits/shared/A7pirc09.itm~ ~override~
-     ~A7-CustomKits/shared/A7slsh09.itm~ ~override~
-     ~A7-CustomKits/shared/A7crsh12.itm~ ~override~
-     ~A7-CustomKits/shared/A7pirc12.itm~ ~override~
-     ~A7-CustomKits/shared/A7slsh12.itm~ ~override~
+COPY ~%MOD_FOLDER%/shared/A7crsh09.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7pirc09.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7slsh09.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7crsh12.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7pirc12.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7slsh12.itm~ ~override~
   SAY NAME1 @122
   SAY NAME2 @122
 
-COPY ~A7-CustomKits/shared/A7crsh15.itm~ ~override~
-     ~A7-CustomKits/shared/A7pirc15.itm~ ~override~
-     ~A7-CustomKits/shared/A7slsh15.itm~ ~override~
+COPY ~%MOD_FOLDER%/shared/A7crsh15.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7pirc15.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7slsh15.itm~ ~override~
   SAY NAME1 @123
   SAY NAME2 @123
 
-COPY ~A7-CustomKits/shared/A7crsh18.itm~ ~override~
-     ~A7-CustomKits/shared/A7pirc18.itm~ ~override~
-     ~A7-CustomKits/shared/A7slsh18.itm~ ~override~
+COPY ~%MOD_FOLDER%/shared/A7crsh18.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7pirc18.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7slsh18.itm~ ~override~
   SAY NAME1 @124
   SAY NAME2 @124
 
-COPY ~A7-CustomKits/shared/A7crsh24.itm~ ~override~
-     ~A7-CustomKits/shared/A7pirc24.itm~ ~override~
-     ~A7-CustomKits/shared/A7slsh24.itm~ ~override~
+COPY ~%MOD_FOLDER%/shared/A7crsh24.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7pirc24.itm~ ~override~
+     ~%MOD_FOLDER%/shared/A7slsh24.itm~ ~override~
   SAY NAME1 @125
   SAY NAME2 @125
 
 // Spirit Weapon ability
-COPY ~A7-CustomKits/shared/A7sp101.2da~ ~override~
-COPY ~A7-CustomKits/shared/A7sp101.spl~ ~override~
+COPY ~%MOD_FOLDER%/shared/A7sp101.2da~ ~override~
+COPY ~%MOD_FOLDER%/shared/A7sp101.spl~ ~override~
   SAY NAME1 @120
+  SAY UNIDENTIFIED_DESC @132
   SAY 0x27e @130                // STRREF set for text output (effect #139)
   SAY 0x2de @131                // STRREF set for spell protection (effect #206)
 
 // Spell: Spirit Dagger
-COPY ~A7-CustomKits/shared/spinA71.spl~ ~override~
-     ~A7-CustomKits/shared/spinA71a.spl~ ~override~
+COPY ~%MOD_FOLDER%/shared/spinA71.spl~ ~override~
+     ~%MOD_FOLDER%/shared/spinA71a.spl~ ~override~
   SAY NAME1 @126
+  SAY UNIDENTIFIED_DESC @133
 
 // Spell: Spirit Mace
-COPY ~A7-CustomKits/shared/spinA72.spl~ ~override~
-     ~A7-CustomKits/shared/spinA72a.spl~ ~override~
+COPY ~%MOD_FOLDER%/shared/spinA72.spl~ ~override~
+     ~%MOD_FOLDER%/shared/spinA72a.spl~ ~override~
   SAY NAME1 @127
+  SAY UNIDENTIFIED_DESC @134
 
 // Spell: Spirit Axe
-COPY ~A7-CustomKits/shared/spinA73.spl~ ~override~
-     ~A7-CustomKits/shared/spinA73a.spl~ ~override~
+COPY ~%MOD_FOLDER%/shared/spinA73.spl~ ~override~
+     ~%MOD_FOLDER%/shared/spinA73a.spl~ ~override~
   SAY NAME1 @128
+  SAY UNIDENTIFIED_DESC @135
 
 // Spell: Remove Spirit Weapon
-COPY ~A7-CustomKits/shared/A7spwp99.bam~ ~override~
-COPY ~A7-CustomKits/shared/A7spwp99.spl~ ~override~
-     ~A7-CustomKits/shared/spinA70.spl~ ~override~
+COPY ~%MOD_FOLDER%/shared/A7spwp99.bam~ ~override~
+COPY ~%MOD_FOLDER%/shared/A7spwp99.spl~ ~override~
+     ~%MOD_FOLDER%/shared/spinA70.spl~ ~override~
   SAY NAME1 @129
+  SAY UNIDENTIFIED_DESC @136
 
 
 // Clone ability
-COPY ~A7-CustomKits/shared/A7sp102.bam~ ~override~
-COPY ~A7-CustomKits/shared/A7sp102.spl~ ~override~
+COPY ~%MOD_FOLDER%/shared/A7sp102.bam~ ~override~
+COPY ~%MOD_FOLDER%/shared/A7sp102.spl~ ~override~
   SAY NAME1 @140
   SAY 0x12e @141                // STRREF set for spell protection (effect #206)
+  SAY UNIDENTIFIED_DESC @142
 
+
+// Adjusting initial equipment when starting a new SoD game
+ACTION_IF (GAME_INCLUDES ~sod~) BEGIN
+  COPY ~%MOD_FOLDER%/shared/sod_equip.baf~ ~%MOD_FOLDER%/shared/sod_equip.baf~
+    SET script_length = BUFFER_LENGTH
+    READ_ASCII 0 script (script_length)
+  BUT_ONLY
+
+  COPY_EXISTING ~bd0120.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+      // patching...
+      REPLACE_TEXTUALLY ~\(!Kit(Player1,BARBARIAN)\)~ ~!Kit(Player1,A7_SPELLSWORD) \1~
+
+      // adding new script
+      SET ofs = INDEX_BUFFER(~Global("BD_Armor","BD0120",0)~)
+      PATCH_IF (ofs >= 0) BEGIN
+        SET ofs = RINDEX_BUFFER(~^IF$~ ofs)
+        PATCH_IF (ofs >= 0) BEGIN
+          INSERT_BYTES ofs script_length
+          WRITE_ASCIIE ofs ~%script%~ (script_length)
+        END
+      END
+    END
+  BUT_ONLY IF_EXISTS
+END

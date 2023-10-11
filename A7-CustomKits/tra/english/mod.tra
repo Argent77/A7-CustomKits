@@ -70,9 +70,43 @@ DISADVANTAGES:
 @129 = ~Remove Spirit Weapon~
 @130 = ~Spiritual weapons have been added to your Special Abilities menu~
 @131 = ~This spell is already active~
+@132 = ~Spirit Weapon
+
+This ability creates a spiritual weapon which lasts three turns. While this spell is active the wielder can freely choose between three different manifestations: Spirit Dagger (piercing weapon), Spirit Mace (crushing weapon) and Spirit Axe (slashing weapon), or choose to wield no spiritual weapon at all.
+
+As the spellsword increases in levels, the weapon becomes more powerful too:
+Level 3-5: 1D8+1, +1 THAC0, non-magical
+Level 6-8: 1D8+2, +2 THAC0, +1 enchanted
+Level 9-11: 1D8+3, +3 THAC0, +2 enchanted
+Level 12-14: 1D8+4, +4 THAC0, +2 enchanted
+Level 15-17: 1D8+4, +4 THAC0, +3 enchanted
+Level 18-23: 1D8+5, +5 THAC0, +4 enchanted
+Level 24+: 1D8+5, +5 THAC0, +5 enchanted
+- The weapon has no speed factor.
+- On level 12 and higher the weapon will deal +1 random elemental damage (fire, cold, acid or lightning) per hit.
+- On Level 24 and higher the weapon will have a 5% chance to slay the victim instantly.
+- Up to level 5 the weapon will be used on specialized level. From level 6 to 11 it will be used on mastery level. From level 12 to 17 the weapon will be used on high mastery level. On level 18 and higher the weapon is wielded with grand master proficiency.~
+@133 = ~Spirit Dagger
+
+This ability creates a spirit dagger in the hand of the wielder, which deals piercing damage to the target.~
+@134 = ~Spirit Mace
+
+This ability creates a spirit mace in the hand of the wielder, which deals crushing damage to the target.~
+@135 = ~Spirit Axe
+
+This ability creates a spirit axe in the hand of the wielder, which deals slashing damage to the target.~
+@136 = ~Remove Spirit Weapon
+
+This ability removes the spirit weapon and allows the wielder to use their physical weapons.~
 
 @140 = ~Clone~
 @141 = ~You may have only one clone at a time. You must wait until the duration of the first spell is over.~
+@142 = ~Clone
+
+This ability creates a less powerful clone of the spellsword for two turns. It has 60 percent of the levels of the spellsword with all its abilities. It can be successfully dispelled with spells that destroy illusions.~
 
 @150 = ~Summon Blade Spirit~
 @151 = ~Blade Spirit~
+@152 = ~Summon Blade Spirit
+
+This ability calls forth a weapon that acts independently from the fighter. It looks like a floating blade and is invulerable to anything but magical attacks. The blade will last one turn.~

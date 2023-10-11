@@ -1,91 +1,70 @@
-// internal name of the kit
-ADD_KIT ~A7_SPELLSWORD~
-
-  // appended to CLASWEAP.2da
-  ~A7_SPELLSWORD           1           1           1           1           1           1           1           1~
-
-  // appended column-wise to WEAPPROF.2da
-  ~A7_SPELLSWORD 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 2 2 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
-     
-  // appended to ABCLASRQ.2da
-  ~A7_SPELLSWORD           9       0       0       0       9       0~
-
-  // appended to ABCLSMOD.2da
-  ~A7_SPELLSWORD           0       0       0       0       0       0~
-  
-  // appended to ABDCDSRQ.2da
-  ~A7_SPELLSWORD           17      0       0       0       17      0~
-
-  // appended to ABDCSCRQ.2da
-  ~A7_SPELLSWORD           15      0       0       0       15      0~
-
-  // appended to ALIGNMNT.2da
-  ~A7_SPELLSWORD       1                   1                   1                   1                   1                   1                   1                   1                   1~
-
-  // appended to DUALCLAS.2da
-  ~A7_SPELLSWORD           0       1       1       1       1       0~
-
-  // path to your CLAB-style 2da file 
-  ~A7-CustomKits/original/A7cbspsd.2da~
-
-  // PC races and classes allowed to use this kit, from KITTABLE.2da
-  ~K_F_H    K_F_D   K_F_G   K_F_E   K_F_HE   K_F_HL   K_F_HO~
-
-  // usability flags, added to the end of the KITLIST.2da entry
-  ~0x00010008      2~
-
-  // HLA table to use; see LUABBR.2da
-  ~Fi0~
-
-  // list of starting equipment for PCs starting in ToB. Appended column-wise to 25STWEAP.2da
-  ~LEAT17 * HELM07 BAG20 RING06 RING31 * BOOT01 AMUL19 BRAC16 BELT06 * * * POTN52,5 POTN4,2 POTN14,5 HAM07 SW1H27 STAF08~
-
-  // Lower, mixed, and help kit names and descriptions, added to KITLIST.2da 
-  SAY @101
-  SAY @102
-  SAY @104
+LAF ADD_KIT_EX
+INT_VAR
+  kit_class = 2
+  lower     = RESOLVE_STR_REF(@101)
+  mixed     = RESOLVE_STR_REF(@102)
+  help      = RESOLVE_STR_REF(@104)
+STR_VAR
+  kit_name  = ~A7_SPELLSWORD~
+  unusable  = ~0x00010008~
+  clasweap  = ~1 1 1 1 1 1 1 1~
+  weapprof  = ~1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 2 2 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+  abclasrq  = ~9 0 0 0 9 0~
+  abclsmod  = ~0 0 0 0 0 0~
+  abdcdsrq  = ~17 0 0 0 17 0~
+  abdcscrq  = ~15 0 0 0 15 0~
+  alignmnt  = ~1 1 1 1 1 1 1 1 1~
+  dualclas  = ~0 1 1 1 1 0~
+  clab_path = EVAL ~%MOD_FOLDER%/original/A7cbspsd.2da~
+  kittable  = ~K_F_H K_F_D K_F_G K_F_E K_F_HE K_F_HL K_F_HO~
+  luabbr    = ~Fi0~
+  stweap    = ~LEAT17 * HELM07 BAG20 RING06 RING31 * BOOT01 AMUL19 BRAC16 BELT06 * * * POTN52,5 POTN4,2 POTN14,5 HAM07 SW1H27 STAF08~
+  bdstweap  = ~LEAT05 * HELM01 * RING06 * * * * * BELT02 * * * POTN08,5 POTN17,3 * HAMM02 SW1H05 STAF02~
+RET
+  kit_id
+END
 
 
 // level-specific spellsword weapons (blade only)...
-COPY ~A7-CustomKits/original/A7blad03.itm~ ~override~
+COPY ~%MOD_FOLDER%/original/A7blad03.itm~ ~override~
   SAY NAME1 @120
   SAY NAME2 @120
 
-COPY ~A7-CustomKits/original/A7blad06.itm~ ~override~
+COPY ~%MOD_FOLDER%/original/A7blad06.itm~ ~override~
   SAY NAME1 @121
   SAY NAME2 @121
 
-COPY ~A7-CustomKits/original/A7blad09.itm~ ~override~
-     ~A7-CustomKits/original/A7blad12.itm~ ~override~
+COPY ~%MOD_FOLDER%/original/A7blad09.itm~ ~override~
+     ~%MOD_FOLDER%/original/A7blad12.itm~ ~override~
   SAY NAME1 @122
   SAY NAME2 @122
 
-COPY ~A7-CustomKits/original/A7blad15.itm~ ~override~
+COPY ~%MOD_FOLDER%/original/A7blad15.itm~ ~override~
   SAY NAME1 @123
   SAY NAME2 @123
 
-COPY ~A7-CustomKits/original/A7blad18.itm~ ~override~
+COPY ~%MOD_FOLDER%/original/A7blad18.itm~ ~override~
   SAY NAME1 @124
   SAY NAME2 @124
 
-COPY ~A7-CustomKits/original/A7blad24.itm~ ~override~
+COPY ~%MOD_FOLDER%/original/A7blad24.itm~ ~override~
   SAY NAME1 @125
   SAY NAME2 @125
 
 
 // Summon Blade Spirit ability
-COPY ~A7-CustomKits/original/A7sp103.bam~ ~override~
+COPY ~%MOD_FOLDER%/original/A7sp103.bam~ ~override~
 
-COPY ~A7-CustomKits/original/A7sp103.spl~ ~override~
+COPY ~%MOD_FOLDER%/original/A7sp103.spl~ ~override~
   SAY NAME1 @150
+  SAY UNIDENTIFIED_DESC @152
 
-COPY ~A7-CustomKits/original/A7blad03.cre~ ~override~
-     ~A7-CustomKits/original/A7blad06.cre~ ~override~
-     ~A7-CustomKits/original/A7blad09.cre~ ~override~
-     ~A7-CustomKits/original/A7blad12.cre~ ~override~
-     ~A7-CustomKits/original/A7blad15.cre~ ~override~
-     ~A7-CustomKits/original/A7blad18.cre~ ~override~
-     ~A7-CustomKits/original/A7blad24.cre~ ~override~
+COPY ~%MOD_FOLDER%/original/A7blad03.cre~ ~override~
+     ~%MOD_FOLDER%/original/A7blad06.cre~ ~override~
+     ~%MOD_FOLDER%/original/A7blad09.cre~ ~override~
+     ~%MOD_FOLDER%/original/A7blad12.cre~ ~override~
+     ~%MOD_FOLDER%/original/A7blad15.cre~ ~override~
+     ~%MOD_FOLDER%/original/A7blad18.cre~ ~override~
+     ~%MOD_FOLDER%/original/A7blad24.cre~ ~override~
   SAY NAME1 @151
   SAY NAME2 @151
-

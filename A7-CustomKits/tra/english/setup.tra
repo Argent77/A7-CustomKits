@@ -1,4 +1,7 @@
+// Using Ascii charset
 @1 = ~Spellsword Kit~
-@2 = ~Skipping component. One or more files are already in use by another mod.~
 @3 = ~Nerfed version~
 @4 = ~Original version~
+
+@50 = ~Skipping component. One or more files are already in use by another mod.~
+@51 = ~DLC Merger is required before mods can be installed on this game. Check the readme for more information and a link to download DLC Merger.~
