@@ -7,6 +7,8 @@
 # Custom Kits: The Spellsword
 *A mod that introduces the fighter kit "Spellsword".*
 
+**Originally released on Spellhold Studios: [Archived version](https://web.archive.org/web/20221207182522/http://www.shsforums.net/files/file/913-custom-kits-the-spellsword/)**
+
 ## Overview
 
 The spellsword is a fighter kit which features monk-like abilities together with many advantages of the fighter class. Because of the spiritual part of the kit your character now has two prime stats (Strength and Wisdom) to cope with.
